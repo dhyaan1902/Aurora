@@ -1,0 +1,45 @@
+# ========================
+# Node / Backend
+# ========================
+backend/node_modules/
+backend/backend.log
+backend/nohup.out
+
+# Environment variables
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Database / downloads
+backend/database/
+backend/downloads/
+
+# ========================
+# Frontend
+# ========================
+frontend/node_modules/
+frontend/frontend.log
+frontend/nohup.out
+
+# Build / output
+frontend/dist/
+frontend/build/
+
+# Local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ========================
+# OS / IDE / Editor files
+# ========================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ========================
+# Optional example env
+# ========================
+# Keep an example so others know which keys are needed
+backend/.env.example

@@ -1,0 +1,40 @@
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v7.3.0  ready in 494 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+3:56:54 pm [vite] vite.config.js changed, restarting server...
+3:56:54 pm [vite] server restarted.
+3:56:54 pm [vite] vite.config.js changed, restarting server...
+3:56:54 pm [vite] server restarted.
+3:56:54 pm [vite] vite.config.js changed, restarting server...
+3:56:54 pm [vite] server restarted.
+3:56:55 pm [vite] vite.config.js changed, restarting server...
+3:56:55 pm [vite] server restarted.
+3:56:55 pm [vite] vite.config.js changed, restarting server...
+3:56:55 pm [vite] server restarted.
+4:01:00 pm [vite] vite.config.js changed, restarting server...
+failed to load config from /home/dhyan/Desktop/project/frontend/vite.config.js
+4:01:00 pm [vite] fs is not defined
+4:01:00 pm [vite] server restart failed
+4:01:00 pm [vite] vite.config.js changed, restarting server...
+failed to load config from /home/dhyan/Desktop/project/frontend/vite.config.js
+4:01:00 pm [vite] fs is not defined
+4:01:00 pm [vite] server restart failed
+4:07:15 pm [vite] vite.config.js changed, restarting server...
+4:07:16 pm [vite] vite.config.js changed, restarting server...
+failed to load config from /home/dhyan/Desktop/project/frontend/vite.config.js
+4:07:16 pm [vite] ENOENT: no such file or directory, open '/home/dhyan/ssl/mykey.key'
+4:07:16 pm [vite] server restart failed
+4:07:16 pm [vite] vite.config.js changed, restarting server...
+failed to load config from /home/dhyan/Desktop/project/frontend/vite.config.js
+4:07:16 pm [vite] ENOENT: no such file or directory, open '/home/dhyan/ssl/mykey.key'
+4:07:16 pm [vite] server restart failed
+4:14:07 pm [vite] (client) hmr update /src/index.css, /src/components/FullScreenPlayer.jsx
+4:19:35 pm [vite] (client) hmr update /src/index.css, /src/components/FullScreenPlayer.jsx
+4:19:35 pm [vite] (client) hmr update /src/index.css, /src/components/FullScreenPlayer.jsx
+4:19:35 pm [vite] (client) hmr update /src/index.css, /src/components/FullScreenPlayer.jsx

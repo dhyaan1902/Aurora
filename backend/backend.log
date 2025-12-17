@@ -1,0 +1,770 @@
+nohup: ignoring input
+[dotenv@17.2.3] injecting env (5) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+✅ Database initialized
+🎵 Server running on http://localhost:4000
+✅ Spotify token refreshed
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+🎵 Play request for: 2LKOHdMsL0K9KwcPRlJK2v
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: After Dark by Mr.Kitty
+📀 ISRC: USY251660155
+⏱️  Duration: 259.146s
+🔍 Searching with ISRC: USY251660155
+📋 Found 5 results, checking durations...
+   1. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 259.146s)
+   2. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 259.146s)
+   3. After Dark - 260s (diff: 0.853999999999985s)
+   4. Online order:- 70161 66159. - 18s (diff: 241.14600000000002s)
+   5. 📞 9996226403/ 9996196403 - 59s (diff: 200.14600000000002s)
+🎯 Perfect match found at position 3: After Dark (diff: 0.853999999999985s)
+✅ ISRC match found: After Dark (diff: 0.853999999999985s)
+✅ Found match: After Dark (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: Cl5Vkd4N03Q
+✅ Stream ready!
+✅ Stream ready!
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+🎵 Play request for: 2QjOHCTQ1Jl3zawyYOpxh6
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Sweater Weather by The Neighbourhood
+📀 ISRC: USSM11300080
+⏱️  Duration: 240.4s
+🔍 Searching with ISRC: USSM11300080
+📋 Found 5 results, checking durations...
+   1. Supreme Court Live | SC Big Action On ECI ? CJI Suryakant | सुप्रीम कोर्ट STOP SIR ? Citizenship Act - 0s (diff: 240.4s)
+   2. Sweater Weather - 241s (diff: 0.5999999999999943s)
+   3. Ahmedabad School Blast Live | અમદાવાદની અનેક સ્કૂલને બોમ્બ બ્લાસ્ટની ધમકી | Zydus School | Udagam - 0s (diff: 240.4s)
+   4. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 240.4s)
+   5. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 240.4s)
+🎯 Perfect match found at position 2: Sweater Weather (diff: 0.5999999999999943s)
+✅ ISRC match found: Sweater Weather (diff: 0.5999999999999943s)
+✅ Found match: Sweater Weather (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: cULQhvuq1Zc
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 5HzMZWEwP8baubqhmpjX75
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Sweater Weather - Sped Up by The Neighbourhood
+📀 ISRC: USSM12302374
+⏱️  Duration: 218.938s
+🔍 Searching with ISRC: USSM12302374
+📋 Found 5 results, checking durations...
+   1. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 218.938s)
+   2. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 218.938s)
+   3. Sweater Weather (Sped Up) - 219s (diff: 0.06200000000001182s)
+   4. પત્નીને તમારા પ્રેમમાં🤔😘 પાગલ કઈ રીતે કરવી.#motivation #viralvideo#shorts DIMPL VLOG 11 લાઇવ છે - 0s (diff: 218.938s)
+   5. ન્યુ પ્રિયાશી ફૂટવેર ભાભર🛍️💥😍7284917423☎️#trending - 35s (diff: 183.938s)
+🎯 Perfect match found at position 3: Sweater Weather (Sped Up) (diff: 0.06200000000001182s)
+✅ ISRC match found: Sweater Weather (Sped Up) (diff: 0.06200000000001182s)
+✅ Found match: Sweater Weather (Sped Up) (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: ltdqa0kxCuA
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 3USxtqRwSYz57Ewm6wWRMp
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Heat Waves by Glass Animals
+📀 ISRC: GBUM72000433
+⏱️  Duration: 238.805s
+🔍 Searching with ISRC: GBUM72000433
+📋 Found 5 results, checking durations...
+   1. CM distributes developmental funds to municipal corporations & municipalities of Gujarat - 0s (diff: 238.805s)
+   2. Heat Waves - Glass Animals (Lyrics) || (Must Watch) - 224s (diff: 14.805000000000007s)
+   3. Heat Waves - 239s (diff: 0.19499999999999318s)
+   4. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 238.805s)
+   5. HINDI X ENGLISH MASHUP 8D AUDIO - 1511s (diff: 1272.195s)
+🎯 Perfect match found at position 3: Heat Waves (diff: 0.19499999999999318s)
+✅ ISRC match found: Heat Waves (diff: 0.19499999999999318s)
+✅ Found match: Heat Waves (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: XDjB9E3YtUE
+✅ Stream ready!
+✅ Stream ready!
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+Spotify API error: { error: { status: 404, message: 'Not Found' } }
+Trending tracks failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Chill vibes failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Energy boost failed: Request failed with status code 404
+Spotify API error: Request failed with status code 404
+Recommendations error: Request failed with status code 404
+🎵 Play request for: 48UPSzbZjgc449aqz8bxox
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Californication by Red Hot Chili Peppers
+📀 ISRC: USWB19900690
+⏱️  Duration: 329.733s
+🔍 Searching with ISRC: USWB19900690
+📋 Found 5 results, checking durations...
+   1. Californication - 330s (diff: 0.2669999999999959s)
+   2. #Surat અડાજણમાં 90 વર્ષીય વૃદ્ધ મહિલા ભિક્ષુકને મારવા બદલ #PI એ કરવો પડ્યો ખુલાસો - 34s (diff: 295.733s)
+   3. Californication - 330s (diff: 0.2669999999999959s)
+   4. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 329.733s)
+   5. 3BHK TENAMENT FOR SALE | 9408200090 | #3bhk #rajkotproperty #realestate - 39s (diff: 290.733s)
+🎯 Perfect match found at position 1: Californication (diff: 0.2669999999999959s)
+✅ ISRC match found: Californication (diff: 0.2669999999999959s)
+✅ Found match: Californication (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: OtXiwSCq99Q
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 2aibwv5hGXSgw7Yru8IYTO
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Snow (Hey Oh) by Red Hot Chili Peppers
+📀 ISRC: USWB10601591
+⏱️  Duration: 334.666s
+🔍 Searching with ISRC: USWB10601591
+📋 Found 5 results, checking durations...
+   1. Gujarat Govt On Marriage LIVE | ભાગેડુ લગ્નને લઈ બદલાઈ શકે છે લગ્ન નોંધણીનો નિયમ | Gandhinagar |News - 0s (diff: 334.666s)
+   2. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 334.666s)
+   3. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 334.666s)
+   4. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 334.666s)
+   5. Snow (Hey Oh) - 335s (diff: 0.3340000000000032s)
+🎯 Perfect match found at position 5: Snow (Hey Oh) (diff: 0.3340000000000032s)
+✅ ISRC match found: Snow (Hey Oh) (diff: 0.3340000000000032s)
+✅ Found match: Snow (Hey Oh) (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: s6GIT4RhFv0
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 63OQupATfueTdZMWTxW03A
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Karma Police by Radiohead
+📀 ISRC: GBAYE9701368
+⏱️  Duration: 264.066s
+🔍 Searching with ISRC: GBAYE9701368
+📋 Found 5 results, checking durations...
+   1. Gujarat Govt On Marriage LIVE | ભાગેડુ લગ્નને લઈ બદલાઈ શકે છે લગ્ન નોંધણીનો નિયમ | Gandhinagar |News - 0s (diff: 264.066s)
+   2. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 264.066s)
+   3. Karma Police - 265s (diff: 0.9340000000000259s)
+   4. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 264.066s)
+   5. #708 દસ્તાવેજ વખતે ખાતેદારી તૂટે નહીં તે બાબતે અગત્યની માહિતી જે ક્ષત્રિયોની કૃપાથી આપણે ખેડૂત... - 579s (diff: 314.934s)
+🎯 Perfect match found at position 3: Karma Police (diff: 0.9340000000000259s)
+✅ ISRC match found: Karma Police (diff: 0.9340000000000259s)
+✅ Found match: Karma Police (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: 4IJI6soiQhI
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 2GBeNjgz5HSvBkE7dRryxk
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Karma Police by Pierce The Veil
+📀 ISRC: US5262426526
+⏱️  Duration: 268.005s
+🔍 Searching with ISRC: US5262426526
+📋 Found 5 results, checking durations...
+   1. @strating price  299 rs  whatsapp no  9492196124 - 0s (diff: 268.005s)
+   2. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 268.005s)
+   3. Karma Police - 269s (diff: 0.9950000000000045s)
+   4. Manchurian Dosa !!#shorts - 60s (diff: 208.005s)
+   5. CONTACT 9311995647 - 16s (diff: 252.005s)
+🎯 Perfect match found at position 3: Karma Police (diff: 0.9950000000000045s)
+✅ ISRC match found: Karma Police (diff: 0.9950000000000045s)
+✅ Found match: Karma Police (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: dpmO5DFLUY4
+🎵 Play request for: 6tRdywsu27GKJ70tqJhYxI
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Karma Police - Live In Denver by Panic! At The Disco
+📀 ISRC: USAT22506026
+⏱️  Duration: 205.32s
+🔍 Searching with ISRC: USAT22506026
+📋 Found 5 results, checking durations...
+   1. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 205.32s)
+   2. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 205.32s)
+   3. ઈમર્જન્સી લેન્ડિંગ કરતા પ્લેન ક્રેશ, 7 ના મો-ત 2025 | Spark Today News Vadodara - 60s (diff: 145.32s)
+   4. Karma Police (Live In Denver) - 206s (diff: 0.6800000000000068s)
+   5. Introduction  to Abhyaas Test Series - 21s (diff: 184.32s)
+🎯 Perfect match found at position 4: Karma Police (Live In Denver) (diff: 0.6800000000000068s)
+✅ ISRC match found: Karma Police (Live In Denver) (diff: 0.6800000000000068s)
+✅ Found match: Karma Police (Live In Denver) (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: wt1LT6aeC8Q
+✅ Stream ready!
+✅ Stream ready!
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 73CKjW3vsUXRpy3NnX4H7F
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Fake Plastic Trees by Radiohead
+📀 ISRC: GBAYE9400056
+⏱️  Duration: 290.706s
+🔍 Searching with ISRC: GBAYE9400056
+📋 Found 5 results, checking durations...
+   1. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 290.706s)
+   2. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 290.706s)
+   3. Fake Plastic Trees - 291s (diff: 0.2939999999999827s)
+   4. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 290.706s)
+   5. Ahmedabad School Blast News Live | ઝાયડસ સ્કૂલને બોમ્બથી ઉડાવી દેવાની ધમકી | Zydus | Mail | News - 0s (diff: 290.706s)
+🎯 Perfect match found at position 3: Fake Plastic Trees (diff: 0.2939999999999827s)
+✅ ISRC match found: Fake Plastic Trees (diff: 0.2939999999999827s)
+✅ Found match: Fake Plastic Trees (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: 6gDhsUWCHrg
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 1uvyZBs4IZYRebHIB1747m
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Purple Rain by Prince
+📀 ISRC: USWB10001880
+⏱️  Duration: 521.866s
+🔍 Searching with ISRC: USWB10001880
+📋 Found 5 results, checking durations...
+   1. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 521.866s)
+   2. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 521.866s)
+   3. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 521.866s)
+   4. Supreme Court Live | SC Big Action On ECI ? CJI Suryakant | सुप्रीम कोर्ट STOP SIR ? Citizenship Act - 0s (diff: 521.866s)
+   5. 10700 કરોડ રૂપિયાની પાર્ટી #shorts #modi - 43s (diff: 478.866s)
+⚠️  No good ISRC match found, trying fallback...
+🔍 Searching: Purple Rain Prince
+🔍 Trying: Purple Rain Prince topic
+📋 Found 5 results, checking durations...
+🎯 Perfect match found at position 1: Purple Rain (diff: 0.13400000000001455s)
+✅ Match found: Purple Rain (diff: 0.13400000000001455s)
+✅ Found match: Purple Rain (search)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: 347vCib_lMs
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 3VbGCXWRiouAq8VyMYN2MI
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Love Me Do - Remastered 2009 by The Beatles
+📀 ISRC: GBAYE0601417
+⏱️  Duration: 141.693s
+🔍 Searching with ISRC: GBAYE0601417
+📋 Found 5 results, checking durations...
+   1. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 141.693s)
+   2. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 141.693s)
+   3. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 141.693s)
+   4. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 141.693s)
+   5. Love Me Do (Remastered 2009) - 142s (diff: 0.30699999999998795s)
+🎯 Perfect match found at position 5: Love Me Do (Remastered 2009) (diff: 0.30699999999998795s)
+✅ ISRC match found: Love Me Do (Remastered 2009) (diff: 0.30699999999998795s)
+✅ Found match: Love Me Do (Remastered 2009) (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: 0pGOFX1D_jg
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 6edCj6jvE6Xs5ECmhMsSxp
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Friends In Low Places - Live by Garth Brooks
+📀 ISRC: GBSMU8531080
+⏱️  Duration: 361.94s
+🔍 Searching with ISRC: GBSMU8531080
+📋 Found 5 results, checking durations...
+   1. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 361.94s)
+   2. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 361.94s)
+   3. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 361.94s)
+   4. Supreme Court Live | SC Big Action On ECI ? CJI Suryakant | सुप्रीम कोर्ट STOP SIR ? Citizenship Act - 0s (diff: 361.94s)
+   5. HDR 4K Portrait| Professional Retouching LookCanonR5 + Photoshop ColorGradingMasterclass#E9DED78#671 - 65s (diff: 296.94s)
+⚠️  No good ISRC match found, trying fallback...
+🔍 Searching: Friends In Low Places - Live Garth Brooks
+🔍 Trying: Friends In Low Places - Live Garth Brooks topic
+📋 Found 5 results, checking durations...
+🎯 Perfect match found at position 2: Friends In Low Places (live) (diff: 1.0600000000000023s)
+✅ Match found: Friends In Low Places (live) (diff: 1.0600000000000023s)
+✅ Found match: Friends In Low Places (live) (search)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: MN3XfhMSCCo
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 0RfZosFEQCOjpwbrdExXE1
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Mom (Garth Brooks) by Nashville Tribute Collection
+📀 ISRC: AUXN21733820
+⏱️  Duration: 239.364s
+🔍 Searching with ISRC: AUXN21733820
+📋 Found 5 results, checking durations...
+   1. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 239.364s)
+   2. Supermicro IoT SuperServer 111E-FWTR REVIEW | IT Creations - 381s (diff: 141.636s)
+   3. ntroducing the "VitaWear SmartBand," a next-generation wearable gadget - 13s (diff: 226.364s)
+   4. Rs 1999, Search Code- TSS-1017, To order download our app from playstore or visit www.utsarees.in - 18s (diff: 221.364s)
+   5. 👨🏻‍💻it વાળા મિત્રો માટે જોરદાર 2 in 1  લેપટોપ માત્ર :- 36,999/- #shorts #trending - 38s (diff: 201.364s)
+⚠️  No good ISRC match found, trying fallback...
+🔍 Searching: Mom (Garth Brooks) Nashville Tribute Collection
+🔍 Trying: Mom (Garth Brooks) Nashville Tribute Collection topic
+📋 Found 5 results, checking durations...
+🎯 Perfect match found at position 3: Mom (diff: 2.3640000000000043s)
+✅ Match found: Mom (diff: 2.3640000000000043s)
+✅ Found match: Mom (search)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: gIw-abwMrDo
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 0mhpz22CNZHnmnvo137rnq
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Hush Little Baby Don't You Cry by Buy You A Mocking Bird
+📀 ISRC: QZAKB2012580
+⏱️  Duration: 122.625s
+🔍 Searching with ISRC: QZAKB2012580
+📋 Found 5 results, checking durations...
+   1. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 122.625s)
+   2. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 122.625s)
+   3. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 122.625s)
+   4. Supreme Court Live | SC Big Action On ECI ? CJI Suryakant | सुप्रीम कोर्ट STOP SIR ? Citizenship Act - 0s (diff: 122.625s)
+   5. Hush Little Baby Don't You Cry - 123s (diff: 0.375s)
+🎯 Perfect match found at position 5: Hush Little Baby Don't You Cry (diff: 0.375s)
+✅ ISRC match found: Hush Little Baby Don't You Cry (diff: 0.375s)
+✅ Found match: Hush Little Baby Don't You Cry (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: AuLAyIrVF8k
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 0rlLBWFFTQiOWi963SH9bb
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Choo Lo by The Local Train
+📀 ISRC: INO131301172
+⏱️  Duration: 233.63s
+🔍 Searching with ISRC: INO131301172
+📋 Found 5 results, checking durations...
+   1. Choo Lo - 234s (diff: 0.37000000000000455s)
+   2. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 233.63s)
+   3. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 233.63s)
+   4. #708 દસ્તાવેજ વખતે ખાતેદારી તૂટે નહીં તે બાબતે અગત્યની માહિતી જે ક્ષત્રિયોની કૃપાથી આપણે ખેડૂત... - 579s (diff: 345.37s)
+   5. ‘તેરા તુજકો અર્પણ’ કાર્યક્રમ અંતર્ગત શાપર–વેરાવળ પોલીસે રૂ. 3,12,294 કિંમતના 10 ગુમ થયેલા મોબાઈલ... - 25s (diff: 208.63s)
+🎯 Perfect match found at position 1: Choo Lo (diff: 0.37000000000000455s)
+✅ ISRC match found: Choo Lo (diff: 0.37000000000000455s)
+✅ Found match: Choo Lo (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: opwZ_PJ-F_E
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 4km0RUkMMFdx8iDuq36o2w
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Janam Janam by Pritam
+📀 ISRC: INS171501744
+⏱️  Duration: 237.896s
+🔍 Searching with ISRC: INS171501744
+📋 Found 5 results, checking durations...
+   1. Janam Janam - 238s (diff: 0.10400000000001342s)
+   2. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 237.896s)
+   3. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 237.896s)
+   4. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 237.896s)
+   5. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 237.896s)
+🎯 Perfect match found at position 1: Janam Janam (diff: 0.10400000000001342s)
+✅ ISRC match found: Janam Janam (diff: 0.10400000000001342s)
+✅ Found match: Janam Janam (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: 5rHzi_5rSyw
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 2kbxGCtWSV0f1ON720Bd4O
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Don'u Don'u Don'u - The Don's Romance by Anirudh Ravichander
+📀 ISRC: INS171500893
+⏱️  Duration: 195.709s
+🔍 Searching with ISRC: INS171500893
+📋 Found 5 results, checking durations...
+   1. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 195.709s)
+   2. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 195.709s)
+   3. Don'u Don'u Don'u (The Don's Romance) - 196s (diff: 0.2909999999999968s)
+   4. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 195.709s)
+   5. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 195.709s)
+🎯 Perfect match found at position 3: Don'u Don'u Don'u (The Don's Romance) (diff: 0.2909999999999968s)
+✅ ISRC match found: Don'u Don'u Don'u (The Don's Romance) (diff: 0.2909999999999968s)
+✅ Found match: Don'u Don'u Don'u (The Don's Romance) (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: nn7WJlphPSE
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 5lKE040hUfDAKOR8HLG92p
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Jeena Jeena by Sachin-Jigar
+📀 ISRC: GBSGZ1500292
+⏱️  Duration: 228.969s
+🔍 Searching with ISRC: GBSGZ1500292
+📋 Found 5 results, checking durations...
+   1. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 228.969s)
+   2. Jeena Jeena - 229s (diff: 0.03100000000000591s)
+   3. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 228.969s)
+   4. Jeena Jeena (From "Badlapur") - 229s (diff: 0.03100000000000591s)
+   5. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 228.969s)
+🎯 Perfect match found at position 2: Jeena Jeena (diff: 0.03100000000000591s)
+✅ ISRC match found: Jeena Jeena (diff: 0.03100000000000591s)
+✅ Found match: Jeena Jeena (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: AsLPGPs5iQk
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 3HiobOOpSpMsi95WBKPBYk
+📡 Fetching from Spotify API...
+✅ Spotify token refreshed
+🔍 Finding YouTube match...
+
+🎵 Track: Hamari Adhuri Kahani (Title Track) by Jeet Gannguli
+📀 ISRC: INS171500730
+⏱️  Duration: 398.799s
+🔍 Searching with ISRC: INS171500730
+📋 Found 5 results, checking durations...
+   1. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 398.799s)
+   2. Hamari Adhuri Kahani (Title Track) (From "Hamari Adhuri Kahani") - 399s (diff: 0.20100000000002183s)
+   3. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 398.799s)
+   4. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 398.799s)
+   5. Royel Enfield Guerrilla 450 Review | 2025 Latest Update Guerrilla 450 - 695s (diff: 296.201s)
+🎯 Perfect match found at position 2: Hamari Adhuri Kahani (Title Track) (From "Hamari Adhuri Kahani") (diff: 0.20100000000002183s)
+✅ ISRC match found: Hamari Adhuri Kahani (Title Track) (From "Hamari Adhuri Kahani") (diff: 0.20100000000002183s)
+✅ Found match: Hamari Adhuri Kahani (Title Track) (From "Hamari Adhuri Kahani") (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: SwzCJ_MV-AQ
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 2BlDX1yfT0ea5wo0vjCKKa
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: 光るなら by Goose house
+📀 ISRC: JPU901401919
+⏱️  Duration: 252.133s
+🔍 Searching with ISRC: JPU901401919
+📋 Found 5 results, checking durations...
+   1. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 252.133s)
+   2. Chaitar Vasava નો પાડલિયામાં આદિવાસી અને પોલીસકર્મીઓની બબાલને લઈ મોટો ધડાકો  | Nirbhay news | - 0s (diff: 252.133s)
+   3. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 252.133s)
+   4. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 252.133s)
+   5. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 252.133s)
+⚠️  No good ISRC match found, trying fallback...
+🔍 Searching: 光るなら Goose house
+🔍 Trying: 光るなら Goose house topic
+📋 Found 5 results, checking durations...
+🎯 Perfect match found at position 1: Hikarunara (diff: 2.8669999999999902s)
+✅ Match found: Hikarunara (diff: 2.8669999999999902s)
+✅ Found match: Hikarunara (search)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: c6rCRy6SrtU
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 66K9GeCpcdpCMVwa87kVpA
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: Hikarunara by SorAZ
+📀 ISRC: JPVI02304170
+⏱️  Duration: 253.605s
+🔍 Searching with ISRC: JPVI02304170
+📋 Found 5 results, checking durations...
+   1. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 253.605s)
+   2. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 253.605s)
+   3. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 253.605s)
+   4. WWW.WORLD.RK U&R INDIA.COM RK U&R NEWS INDIA 🇮🇳489 Truth Of Delhi Gov. India Media Reality P.M. C.M. - 0s (diff: 253.605s)
+   5. #708 દસ્તાવેજ વખતે ખાતેદારી તૂટે નહીં તે બાબતે અગત્યની માહિતી જે ક્ષત્રિયોની કૃપાથી આપણે ખેડૂત... - 579s (diff: 325.395s)
+⚠️  No good ISRC match found, trying fallback...
+🔍 Searching: Hikarunara SorAZ
+🔍 Trying: Hikarunara SorAZ topic
+📋 Found 5 results, checking durations...
+🎯 Perfect match found at position 1: Hikarunara (diff: 1.3950000000000102s)
+✅ Match found: Hikarunara (diff: 1.3950000000000102s)
+✅ Found match: Hikarunara (search)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: c6rCRy6SrtU
+✅ Stream ready!
+✅ Stream ready!
+🎵 Play request for: 5bHDGWyIFML1LYXZWTD5MF
+📡 Fetching from Spotify API...
+🔍 Finding YouTube match...
+
+🎵 Track: I Love You by Pritam
+📀 ISRC: INS181102560
+⏱️  Duration: 256.812s
+🔍 Searching with ISRC: INS181102560
+📋 Found 5 results, checking durations...
+   1. LIVE | Ambaji ના પાડલીયા પહોચ્યા Chaitar Vasava, જય જોહરનો નાદ કરી અને પછી... - 0s (diff: 256.812s)
+   2. I Love You - 257s (diff: 0.18799999999998818s)
+   3. Gandhinagar થી કૃષિ મંત્રી Jitu Vaghani ની ખેડૂતો માટે મોટી જાહેરાત। Bhupendra Patel | Harsh Sanghvi - 0s (diff: 256.812s)
+   4. Radhe Krishna offical  is live જય માતાજી યુટ્યુબ ફેમીલી 💸💸💸👍👍❤️❤️❤️🚩🚩🚩🥰🥰 - 0s (diff: 256.812s)
+   5. પાડલિયામાં આદિવાસીઓ અને પોલીસ વચ્ચે થયેલા ઘર્ષણ અંગે મુદ્દે ચૈતર વસાવા આક્રમક |  BS9 TV NEWS - 0s (diff: 256.812s)
+🎯 Perfect match found at position 2: I Love You (diff: 0.18799999999998818s)
+✅ ISRC match found: I Love You (diff: 0.18799999999998818s)
+✅ Found match: I Love You (isrc)
+🎬 Getting stream URL...
+🎬 Getting stream URL for: 9fZ1PTQXV58
+✅ Stream ready!
+✅ Stream ready!

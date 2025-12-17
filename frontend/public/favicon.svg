@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background -->
+  <rect width="100" height="100" rx="22" fill="#0b0b0f"/>
+
+  <!-- Sound waves -->
+  <g fill="#FF4B63">
+    <rect x="24" y="30" width="8" height="40" rx="4"/>
+    <rect x="38" y="22" width="8" height="56" rx="4"/>
+    <rect x="52" y="34" width="8" height="32" rx="4"/>
+    <rect x="66" y="26" width="8" height="48" rx="4"/>
+  </g>
+</svg>
+	
