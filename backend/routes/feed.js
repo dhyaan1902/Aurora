@@ -23,7 +23,6 @@ router.get('/', async (req, res) => {
         `);
 
         const hasHistory = recentPlays.length > 0;
-
         // 2. PERSONALIZED RECOMMENDATIONS (if user has history)
         if (hasHistory) {
             try {
@@ -65,12 +64,13 @@ router.get('/', async (req, res) => {
             console.log('New releases failed:', error.message);
         }
 
-        // 4. TRENDING TRACKS (Using Spotify's featured playlists as proxy)
+        // 4. TRENDING TRACKS (Using search for popular playlists instead of deprecated featured-playlists)
         try {
-            const featured = await spotifyRequest('/browse/featured-playlists', { limit: 1 });
+            // Search for "Top Global" or "Today's Top Hits" style playlists
+            const searchPlaylists = await spotifyRequest('/search', { q: 'Top Global', type: 'playlist', limit: 1 });
 
-            if (featured.playlists.items.length > 0) {
-                const playlistId = featured.playlists.items[0].id;
+            if (searchPlaylists.playlists.items.length > 0) {
+                const playlistId = searchPlaylists.playlists.items[0].id;
                 const playlistTracks = await spotifyRequest(`/playlists/${playlistId}/tracks`, { limit: 20 });
 
                 const tracks = playlistTracks.items
@@ -90,7 +90,7 @@ router.get('/', async (req, res) => {
                 });
             }
         } catch (error) {
-            console.log('Trending tracks failed:', error.message);
+            console.log('Trending tracks failed (via search):', error.message);
         }
 
         // 5. DISCOVER (Random genre-based recommendations)
@@ -126,24 +126,23 @@ router.get('/', async (req, res) => {
         if (hasHistory) {
             try {
                 const seedTracks = recentPlays.map(p => p.spotifyTrackId).slice(0, 2);
-                const chillTracks = await spotifyRequest('/recommendations', {
-                    seed_tracks: seedTracks.join(','),
-                    target_energy: 0.3,
-                    target_valence: 0.5,
-                    limit: 15
-                });
+                try {
+                    const chillTracks = await getRecommendations(seedTracks, 15);
 
-                feed.push({
-                    section: 'Chill Vibes',
-                    tracks: chillTracks.tracks.map(track => ({
-                        id: track.id,
-                        name: track.name,
-                        artists: track.artists,
-                        album: track.album,
-                        duration_ms: track.duration_ms,
-                        external_ids: track.external_ids
-                    }))
-                });
+                    feed.push({
+                        section: 'Chill Vibes',
+                        tracks: chillTracks.tracks.map(track => ({
+                            id: track.id,
+                            name: track.name,
+                            artists: track.artists,
+                            album: track.album,
+                            duration_ms: track.duration_ms,
+                            external_ids: track.external_ids
+                        }))
+                    });
+                } catch (recError) {
+                    console.log('Chill vibes recommendation specifically failed:', recError.message);
+                }
             } catch (error) {
                 console.log('Chill vibes failed:', error.message);
             }
@@ -153,24 +152,23 @@ router.get('/', async (req, res) => {
         if (hasHistory) {
             try {
                 const seedTracks = recentPlays.map(p => p.spotifyTrackId).slice(0, 2);
-                const energeticTracks = await spotifyRequest('/recommendations', {
-                    seed_tracks: seedTracks.join(','),
-                    target_energy: 0.8,
-                    target_valence: 0.7,
-                    limit: 15
-                });
+                try {
+                    const energeticTracks = await getRecommendations(seedTracks, 15);
 
-                feed.push({
-                    section: 'Energy Boost',
-                    tracks: energeticTracks.tracks.map(track => ({
-                        id: track.id,
-                        name: track.name,
-                        artists: track.artists,
-                        album: track.album,
-                        duration_ms: track.duration_ms,
-                        external_ids: track.external_ids
-                    }))
-                });
+                    feed.push({
+                        section: 'Energy Boost',
+                        tracks: energeticTracks.tracks.map(track => ({
+                            id: track.id,
+                            name: track.name,
+                            artists: track.artists,
+                            album: track.album,
+                            duration_ms: track.duration_ms,
+                            external_ids: track.external_ids
+                        }))
+                    });
+                } catch (recError) {
+                    console.log('Energy boost recommendation specifically failed:', recError.message);
+                }
             } catch (error) {
                 console.log('Energy boost failed:', error.message);
             }

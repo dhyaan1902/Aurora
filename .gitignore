@@ -1,45 +1,104 @@
-# ========================
-# Node / Backend
-# ========================
-backend/node_modules/
-backend/backend.log
-backend/nohup.out
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Environment variables
-backend/.env
-backend/.env.local
-backend/.env.*.local
+# Build outputs
+dist/
+dist-electron/
+build/
+out/
 
-# Database / downloads
-backend/database/
-backend/downloads/
-
-# ========================
-# Frontend
-# ========================
-frontend/node_modules/
-frontend/frontend.log
-frontend/nohup.out
-
-# Build / output
+# Frontend build
 frontend/dist/
 frontend/build/
 
-# Local env files
-frontend/.env
-frontend/.env.local
-frontend/.env.*.local
+# Production
+*.AppImage
+*.dmg
+*.exe
+*.deb
+*.rpm
+*.snap
 
-# ========================
-# OS / IDE / Editor files
-# ========================
-.vscode/
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - IntelliJ
 .idea/
-*.DS_Store
-Thumbs.db
+*.iml
+*.iws
+*.ipr
 
-# ========================
-# Optional example env
-# ========================
-# Keep an example so others know which keys are needed
-backend/.env.example
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Music/Download files
+backend/downloads/*
+!backend/downloads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# Electron-builder
+.electron-builder.yml
+
+# Misc
+.turbo
+.vercel
+.netlify
+
+/backend/.env
+/main.js
+/package.json
+/package-lock.json
+/node_modules
+/dist-electron
+/dist
+/build

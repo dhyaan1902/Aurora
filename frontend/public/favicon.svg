@@ -1,13 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Background -->
-  <rect width="100" height="100" rx="22" fill="#0b0b0f"/>
+<svg
+  width="256"
+  height="256"
+  viewBox="0 0 256 256"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Solid background -->
+  <circle cx="128" cy="128" r="120" fill="#020617" />
 
-  <!-- Sound waves -->
-  <g fill="#FF4B63">
-    <rect x="24" y="30" width="8" height="40" rx="4"/>
-    <rect x="38" y="22" width="8" height="56" rx="4"/>
-    <rect x="52" y="34" width="8" height="32" rx="4"/>
-    <rect x="66" y="26" width="8" height="48" rx="4"/>
-  </g>
+  <!-- Flat sound waves -->
+  <path
+    d="M72 110
+       C104 94, 152 94, 184 110"
+    fill="none"
+    stroke="#3b82f6"
+    stroke-width="14"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M78 138
+       C108 124, 148 124, 178 138"
+    fill="none"
+    stroke="#2563eb"
+    stroke-width="12"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M84 164
+       C112 152, 144 152, 172 164"
+    fill="none"
+    stroke="#1d4ed8"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
 </svg>
-	
+

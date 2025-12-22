@@ -152,6 +152,8 @@ async function findByISRC(isrc, targetDuration) {
 // Fallback search method - also checks multiple results
 async function fallbackSearch(trackName, artistName, targetDuration) {
     const queries = [
+        `${trackName} ${artistName} official music video`,
+        `${trackName} ${artistName} lyrics`,
         `${trackName} ${artistName} topic`,
         `${trackName} ${artistName} official audio`,
         `${trackName} ${artistName}`
@@ -223,50 +225,137 @@ async function getYoutubeMatch(spotifyTrack) {
     return null;
 }
 
-// Get stream URL - only use yt-dlp here (the slow part)
+// Get stream URL - returns our proxy endpoint
 async function getStreamUrl(videoId) {
-    try {
-        console.log(`🎬 Getting stream URL for: ${videoId}`);
-
-        const streamUrl = await ytdlp(`https://youtube.com/watch?v=${videoId}`, {
-            format: 'bestaudio',
-            getUrl: true,
-            noWarnings: true
-        });
-
-        console.log('✅ Stream ready!');
-        return streamUrl.trim();
-    } catch (error) {
-        console.error('❌ Failed to get stream URL:', error.message);
-        throw error;
-    }
+    // We return the proxy URL. The frontend or play route will need to ensure it's absolute if needed,
+    // but usually, relative to the backend base is fine or the backend can provide its own host.
+    // For now, return the path which the routes will use.
+    return `/stream/${videoId}`;
 }
 
 // Download track
 async function downloadTrack(videoId, spotifyTrack) {
-    const sanitizedTitle = spotifyTrack.name.replace(/[^a-z0-9]/gi, '_');
-    const outputTemplate = `downloads/${sanitizedTitle}_${videoId}.%(ext)s`;
+    const sanitizedTitle = spotifyTrack.name.replace(/[^a-z0-9]/gi, ' ').trim();
+    const sanitizedArtist = spotifyTrack.artists[0].name.replace(/[^a-z0-9]/gi, ' ').trim();
+    const fileNameBase = `${sanitizedTitle} - ${sanitizedArtist}`.replace(/\s+/g, ' ');
+
+    // We'll trust yt-dlp to add the correct extension (usually .opus or .ogg)
+    const outputTemplate = `downloads/${fileNameBase}.%(ext)s`;
 
     try {
         console.log(`⬇️  Downloading: ${videoId}`);
 
+        // We use exec to get the output filename easily? No, exec doesn't return that easily.
+        // We can just look for the file after. 
+        // Or we can specify exact filename if we transcode.
+
         await ytdlp(`https://youtube.com/watch?v=${videoId}`, {
             extractAudio: true,
-            audioFormat: 'mp3',
+            audioFormat: 'opus',
             output: outputTemplate,
-            quiet: false
+            noWarnings: true
         });
 
         console.log('✅ Download complete!');
-        return `${sanitizedTitle}_${videoId}.mp3`;
+        // The file should be .opus
+        return `${fileNameBase}.opus`;
     } catch (error) {
         console.error('❌ Download failed:', error.message);
         throw error;
     }
 }
 
+async function getLyrics(videoId) {
+    try {
+        console.log(`📜 Fetching lyrics for: ${videoId}`);
+
+        const result = await ytdlp(`https://youtube.com/watch?v=${videoId}`, {
+            dumpSingleJson: true,
+            noWarnings: true,
+            skipDownload: true,
+            writeSubs: true,
+            writeAutoSubs: true,
+            writeSubs: true,
+            writeAutoSubs: true,
+            subLangs: 'all', // Get all languages
+        });
+
+        // Try to find manual subtitles first, then automatic captions
+        const subs = result.subtitles || {};
+        const autoSubs = result.automatic_captions || {};
+
+        let selectedSub = null;
+        let selectedLang = null;
+
+        // Helper to find best language
+        const findBestLang = (subObj) => {
+            const langs = Object.keys(subObj);
+            if (langs.length === 0) return null;
+            // Prefer English
+            const en = langs.find(l => l.startsWith('en'));
+            if (en) return en;
+            // Otherwise just take the first one
+            return langs[0];
+        };
+
+        // 1. Check manual subs
+        const manualLang = findBestLang(subs);
+        if (manualLang) {
+            selectedSub = subs[manualLang];
+            selectedLang = manualLang;
+            console.log(`✅ Found manual subtitles in: ${manualLang}`);
+        } else {
+            // 2. Check auto subs
+            const autoLang = findBestLang(autoSubs);
+            if (autoLang) {
+                selectedSub = autoSubs[autoLang];
+                selectedLang = autoLang;
+                console.log(`⚠️  Using auto-generated captions in: ${autoLang}`);
+            }
+        }
+
+        if (!selectedSub) {
+            console.log('❌ No subtitles found at all');
+            return null;
+        }
+
+        // Find json3 format
+        const json3Sub = selectedSub.find(s => s.ext === 'json3') || selectedSub[0];
+
+        if (!json3Sub || !json3Sub.url) {
+            console.log('❌ No suitable subtitle format found');
+            return null;
+        }
+
+        console.log(`📡 Fetching subtitle content: ${json3Sub.url}`);
+        const response = await fetch(json3Sub.url);
+        const data = await response.json();
+
+        // Convert json3 to simpler format: [{ start, duration, text }]
+        if (data.events) {
+            const lyrics = data.events
+                .filter(event => event.segs && event.segs.some(seg => seg.utf8.trim()))
+                .map(event => ({
+                    start: event.tStartMs / 1000,
+                    duration: (event.dDurationMs || 0) / 1000,
+                    text: event.segs.map(seg => seg.utf8).join('').trim()
+                }));
+
+            console.log(`✅ Parsed ${lyrics.length} lyric lines`);
+            return lyrics;
+        }
+
+        return null;
+    } catch (error) {
+        console.error('❌ Failed to get lyrics:', error.message);
+        return null;
+    }
+}
+
 module.exports = {
+    searchYouTube,
     getYoutubeMatch,
     getStreamUrl,
-    downloadTrack
+    downloadTrack,
+    getLyrics
 };

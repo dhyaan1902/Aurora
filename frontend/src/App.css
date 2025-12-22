@@ -1,9 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+/* App-specific styles */
 
 .logo {
   height: 6em;
@@ -11,9 +6,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +19,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +37,63 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* View transition animations */
+.view-enter {
+  animation: viewFadeIn 0.3s ease-out;
+}
+
+@keyframes viewFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhanced drag and drop */
+.draggable-item {
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+
+.draggable-item:active {
+  cursor: grabbing;
+  opacity: 0.7;
+}
+
+.draggable-item.drag-over {
+  border-color: var(--mac-accent);
+  background: rgba(33, 77, 189, 0.05);
+}
+
+/* Smooth hover scale effect */
+.hover-lift {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Pulse animation for active elements */
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
