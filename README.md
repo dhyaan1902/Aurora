@@ -6,17 +6,31 @@
 
 **A stunning, full-featured music streaming application built with modern web technologies**
 
+<!-- Core Badges -->
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16+-339933?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+
+<!-- Build & Quality Badges -->
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
+[![Code Style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge&logo=prettier)](https://prettier.io/)
+[![Maintained](https://img.shields.io/badge/Maintained-Yes-green?style=for-the-badge)](https://github.com/dhyaan1902/Aurora/graphs/commit-activity)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey?style=for-the-badge)](https://github.com/dhyaan1902/Aurora)
+
+<!-- Tech Stack Badges -->
+[![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Express](https://img.shields.io/badge/Express-4.x-000000?style=for-the-badge&logo=express)](https://expressjs.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
 
 [✨ Features](#-features) • [🚀 Quick Start](#-quick-start) • [📸 Screenshots](#-screenshots) • [🛠 Tech Stack](#-tech-stack) • [⚡ Performance](#-performance)
 
 ---
 
 **Experience music streaming like never before - Free, Beautiful, and Powerful**
+
+*Because even your ears deserve premium treatment* 🎧
 
 </div>
 
@@ -26,10 +40,10 @@
 
 Aurora combines the **metadata richness of Spotify** with the **free streaming of YouTube Music** to create a premium music player that doesn't cost a penny. Built as a native desktop application, it offers:
 
-- 🎨 **Stunning UI** - macOS-inspired design with smooth animations
-- 🎵 **Free Streaming** - Millions of songs, zero subscription
+- 🎨 **Stunning UI** - macOS-inspired design with smooth animations *(No bugs were harmed in the making of this interface)*
+- 🎵 **Free Streaming** - Millions of songs, zero subscription *(Works better than your gym membership)*
 - 📝 **Live Lyrics** - Synced lyrics that flow with your music
-- 🚀 **Lightning Fast** - Hardware-accelerated, optimized performance
+- 🚀 **Lightning Fast** - Hardware-accelerated, optimized performance *(Faster than npm install)*
 - 🎯 **Complete Features** - Everything you'd expect from a premium player
 
 ---
@@ -38,21 +52,23 @@ Aurora combines the **metadata richness of Spotify** with the **free streaming o
 
 <div align="center">
 
-### Main Interface
-*Beautiful, clean interface with smooth transitions*
+### 🏠 Main Interface
+![Main Interface](./screenshot0.png)
+*Beautiful, clean interface with smooth transitions - Because pixels matter*
 
-### Fullscreen Player with Live Lyrics
-*Immersive experience with auto-scrolling synced lyrics*
+### 📝 Playlist & Queue Management
+![Playlist View](./screenshot1.png)
+*Organize your music with drag-and-drop - Moving pixels has never been easier*
 
-### Playlist Management
-*Drag and drop to organize your music*
+### 🎤 Fullscreen Player with Live Lyrics
+![Fullscreen Player](./screenshot2.png)
+*Immersive experience with auto-scrolling synced lyrics - Like karaoke, but cooler*
 
-### Search & Discover
-*Find music instantly with powerful search*
+### 🎨 Browse & Discover
+![Browse View](./screenshot3.png)
+*Explore your personalized feed and discover new music*
 
 </div>
-
-> 💡 **Note:** Add screenshots by placing images in `/docs/screenshots/` and updating the links above
 
 ---
 
@@ -142,16 +158,17 @@ Aurora combines the **metadata richness of Spotify** with the **free streaming o
 
 ```bash
 Node.js 16+ • npm/yarn • yt-dlp (auto-installed)
+# Coffee ☕ (required for debugging)
 ```
 
 ### Installation
 
 ```bash
-# Clone the repository
+# Clone the repository (the fun begins)
 git clone https://github.com/dhyaan1902/Aurora.git
 cd Aurora
 
-# Install dependencies
+# Install dependencies (time for that coffee)
 npm install
 cd backend && npm install && cd ..
 cd frontend && npm install && cd ..
@@ -164,6 +181,8 @@ cd ..
 ```
 
 > 🔑 Get Spotify credentials at [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+> 
+> 💡 **Pro Tip:** The app works without Spotify credentials, but you'll miss out on rich metadata!
 
 ### Development
 
@@ -311,6 +330,7 @@ Aurora is built for **speed and smoothness**:
 └── JS:    381.62 kB (gzipped: 117.59 kB)
 
 ⚡ Total:   ~124 kB gzipped
+💡 That's smaller than most website hero images!
 ```
 
 ---
@@ -344,7 +364,7 @@ Aurora is built for **speed and smoothness**:
 4. Lyrics auto-scroll as song plays
 5. Click any lyric line to seek
 
-### Keyboard Shortcuts *(Coming Soon)*
+### Keyboard Shortcuts *(Coming Soon - Until then, your mouse gets a workout)*
 
 | Shortcut | Action |
 |----------|--------|
@@ -359,6 +379,7 @@ Aurora is built for **speed and smoothness**:
 | `L` | Toggle Lyrics |
 | `F` | Fullscreen |
 | `/` | Search |
+| `Ctrl+C` | Still copies text (sorry!) |
 
 ---
 
@@ -449,6 +470,7 @@ YT_DLP_UPDATE_INTERVAL=7d
 
 ```bash
 # Delete all node_modules and reinstall
+# (The classic "turn it off and on again" for Node.js)
 rm -rf node_modules backend/node_modules frontend/node_modules
 npm install
 cd backend && npm install && cd ..
@@ -477,7 +499,7 @@ cd frontend && npm install && cd ..
 <details>
 <summary><b>Lyrics not showing</b></summary>
 
-1. Not all songs have lyrics available
+1. Not all songs have lyrics available (even AI can't write them all)
 2. Try a popular track to test
 3. Check backend logs for errors
 4. Ensure yt-dlp is up to date
@@ -564,21 +586,62 @@ With these conditions:
 
 ---
 
+## 📚 References & Resources
+
+### Technical Articles & Documentation
+- **[Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/)** - Comprehensive API documentation
+- **[yt-dlp Documentation](https://github.com/yt-dlp/yt-dlp#readme)** - YouTube extraction guide
+- **[Electron Best Practices](https://www.electronjs.org/docs/latest/tutorial/security)** - Security and performance
+- **[React Performance Optimization](https://react.dev/learn/render-and-commit)** - Official React docs
+- **[Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)** - MDN audio processing guide
+- **[Tailwind CSS Best Practices](https://tailwindcss.com/docs/reusing-styles)** - Efficient styling patterns
+
+### Design Inspiration & UI/UX
+- **[Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)** - macOS design principles
+- **[Material Design](https://m3.material.io/)** - Google's design system
+- **[Dribbble - Music Player Designs](https://dribbble.com/tags/music-player)** - UI inspiration
+- **[Awwwards](https://www.awwwards.com/)** - Web design excellence
+
+### Similar Projects & Alternatives
+- **[Nuclear](https://github.com/nukeop/nuclear)** - Free music streaming app
+- **[Spotube](https://github.com/KRTirtho/spotube)** - Open source Spotify client
+- **[Dopamine](https://github.com/digimezzo/dopamine)** - Audio player for Windows
+- **[Museeks](https://github.com/martpie/museeks)** - Simple, clean music player
+- **[Lollypop](https://gitlab.gnome.org/World/lollypop)** - GNOME music player
+
+### Community & Learning
+- **[Awesome Electron](https://github.com/sindresorhus/awesome-electron)** - Curated Electron resources
+- **[Awesome React](https://github.com/enaqx/awesome-react)** - React ecosystem
+- **[Stack Overflow - Electron Tag](https://stackoverflow.com/questions/tagged/electron)** - Community Q&A
+
+---
+
 ## 🙏 Acknowledgments
 
-### Technologies
-- **[Spotify](https://developer.spotify.com/)** - Amazing Web API for metadata
-- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** - Powerful YouTube Music extraction
-- **[Electron](https://www.electronjs.org/)** - Desktop app framework
-- **[React](https://reactjs.org/)** - UI framework
-- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS
-- **[Framer Motion](https://www.framer.com/motion/)** - Animation library
+### Core Technologies
+- **[Spotify Web API](https://developer.spotify.com/)** - Rich metadata and discovery features
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** - The Swiss Army knife of YouTube extraction
+- **[Electron](https://www.electronjs.org/)** - Making desktop apps cool again
+- **[React](https://reactjs.org/)** - UI framework that just works
+- **[Vite](https://vitejs.dev/)** - Build tool that's actually fast
+- **[Tailwind CSS](https://tailwindcss.com/)** - CSS without the pain
+- **[Framer Motion](https://www.framer.com/motion/)** - Animations that wow
+- **[Express.js](https://expressjs.com/)** - Backend made simple
+- **[SQLite](https://www.sqlite.org/)** - World's most deployed database
+- **[Lucide Icons](https://lucide.dev/)** - Beautiful, consistent icons
 
-### Inspiration
-- Spotify Desktop App
-- Apple Music
-- YouTube Music
-- Dopamine Music Player
+### Design Inspiration
+- **Spotify Desktop App** - The gold standard of music players
+- **Apple Music** - macOS design excellence
+- **YouTube Music** - Modern streaming UX
+- **Dopamine Music Player** - Windows audio player inspiration
+- **Plexamp** - Premium audio experience
+
+### Special Thanks
+- The open-source community for amazing tools
+- Coffee ☕ for late-night debugging sessions
+- Stack Overflow for saving us countless times
+- Everyone who starred, forked, or contributed 🌟
 
 ---
 
@@ -613,6 +676,8 @@ If you find Aurora useful, please consider:
 
 **Aurora Music Player** - *Experience Music Freely*
 
+*"99 bugs in the code, 99 bugs in the code, take one down, patch it around, 127 bugs in the code..."*
+
 ---
 
 [![GitHub Stars](https://img.shields.io/github/stars/dhyaan1902/Aurora?style=social)](https://github.com/dhyaan1902/Aurora/stargazers)
@@ -623,5 +688,7 @@ If you find Aurora useful, please consider:
 [⬆ Back to Top](#-aurora-music-player)
 
 **© 2025 Aurora Music Player. All rights reserved.**
+
+*P.S. - No subscription fees were charged in the making of this app* 🎉
 
 </div>

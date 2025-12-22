@@ -150,7 +150,7 @@ export default function FullScreenPlayer({
                     {/* Lyrics Section */}
                     {showLyrics && (
                         <div
-                            className="w-full md:w-[60%] h-[50vh] md:h-[70vh] overflow-y-auto pl-0 pr-12"
+                            className="w-full md:w-[70%] h-[50vh] md:h-[70vh] overflow-y-auto overflow-x-hidden pl-0 pr-12"
                             ref={lyricsScrollRef}
                             style={{
                                 scrollbarWidth: 'thin',
@@ -179,7 +179,7 @@ export default function FullScreenPlayer({
                                                 style={{
                                                     willChange: isActive ? 'transform, opacity' : 'auto',
                                                     transform: hasTimestamps
-                                                        ? `translateZ(0) scale(${isActive ? 1.4 : 0.7})`
+                                                        ? `translateZ(0) scale(${isActive ? 1.15 : 0.9})`
                                                         : 'translateZ(0)',
                                                     transformOrigin: 'left center',
                                                     backfaceVisibility: 'hidden',
@@ -191,8 +191,8 @@ export default function FullScreenPlayer({
                                                 className={`
                                                     transition-all duration-700 ease-in-out break-words max-w-full
                                                     ${hasTimestamps
-                                                        ? 'text-xl md:text-2xl font-bold leading-relaxed'
-                                                        : 'text-base md:text-xl font-medium leading-relaxed'
+                                                        ? 'text-2xl md:text-3xl font-bold leading-relaxed'
+                                                        : 'text-lg md:text-2xl font-medium leading-relaxed'
                                                     }
                                                     ${isActive ? 'text-white font-black' : isPast ? 'text-white/40' : 'text-white/60'}
                                                     ${hasTimestamps && line.start !== undefined ? 'cursor-pointer hover:opacity-80 transition-opacity duration-200' : ''}
@@ -230,7 +230,7 @@ export default function FullScreenPlayer({
                     )}
 
                     {/* Controls Section */}
-                    <div className={`w-full md:w-[35%] max-w-md flex flex-col justify-center gap-10 ${showLyrics ? 'hidden md:flex' : 'flex'}`}>
+                    <div className={`w-full md:w-[28%] max-w-md flex flex-col justify-center gap-10 ${showLyrics ? 'hidden md:flex' : 'flex'}`}>
                         {/* Track Info */}
                         <div className="space-y-3 text-center md:text-left">
                             <h1 className="text-4xl md:text-5xl font-black text-white leading-tight tracking-tighter break-words">
