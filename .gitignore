@@ -102,3 +102,6 @@ pnpm-lock.yaml
 /dist-electron
 /dist
 /build
+/backend/package-lock.json
+/frontend/package-lock.json
+
